@@ -1,0 +1,27 @@
+body, html {
+	background-color: #002b36;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Droid Sans', sans-serif;
+	color: #b58900;
+}
+
+footer, p {
+	color: #657b83;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: #586e75;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar {
+	background-color: #657b83;
+	color: #93a1a1;
+	font-size: 1em;
+}
+
+pre {
+	background-color: #fdf6e3;
+}
