@@ -80,8 +80,10 @@
 {% endif %}
 <script src="{{ site.url }}/components/highlightjs/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+{% if site.disqus.shortname %}
 <script type="text/javascript">
-    var disqus_shortname = 'christankersleysblog';
+    var disqus_shortname = '{{site.disqus.shortname}}';
     var disqus_script = 'count.js';
 
     (function () {
@@ -90,6 +92,7 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
+{% endif %}
 
 </body>
 </html>
